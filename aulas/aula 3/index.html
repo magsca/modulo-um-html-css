@@ -3,20 +3,34 @@
 
 <head>
     <title> Site da Carol </title>
+    <meta name="descrição do meu site" content="meu primeiro site em html">
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: darkgray;
+        }
+
+        h1 {
+            color: darkgoldenrod;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- tags de titulo -->
-    <h1> esse é meu primeiro site! </h1>
+    <h1 id="titulo">começando com css</h1>
+    <p style="color:darkblue;">estamos implementando o css inline</p>
     <h2> esse é meu primeiro site! </h2>
     <h3> esse é meu primeiro site! </h3>
     <h4> esse é meu primeiro site! </h4>
     <h5> esse é meu primeiro site! </h5>
     <h6> esse é meu primeiro site! </h6>
 
-    <p>Pretinha, uh, faço tudo pelo nosso amor <br />
-        Faço tudo pelo bem do nosso bem, meu bem
-        A saudade é minha dor
+    <p style="color:blue;">
+        Pretinha, uh, faço tudo pelo nosso amor <br />
+        Faço tudo pelo bem do nosso bem, meu bem <br />
+        A saudade é minha dor <br />
         E anda arrasando com o meu coração</p>
 
     <!--Tags de formatação de texto-->
@@ -42,7 +56,7 @@
         <li>mudar de emprego</li>
     </ol>
 
-    <h2>lista ordenada em ordem alfabetica</h2>
+    <h2 class="primeirasListas">lista ordenada em ordem alfabetica</h2>
     <ol type="A">
         <li>correr</li>
         <li>ler</li>
@@ -56,7 +70,7 @@
         <li>sonhar</li>
     </ol>
 
-    <h2>lista desordenada</h2>
+    <h2 class="primeirasListas">lista desordenada</h2>
     <ul type="square">
         <li>correr</li>
         <li>ler</li>
@@ -64,7 +78,7 @@
 
     </ul>
 
-    <h2>lista desordenada circulo vazado</h2>
+    <h2 class="segundasListas">lista desordenada circulo vazado</h2>
     <ul type="circle">
         <li>correr</li>
         <li>ler</li>
@@ -72,6 +86,7 @@
     </ul>
 
     <h1>tabelas</h1>
+
     <table border="1">
 
         <thead>
@@ -84,19 +99,19 @@
 
         <tbody>
             <tr>
-                <th>body 1 coluna 1</th>
-                <th>body 2 coluna 2</th>
-                <th>body 3 coluna3</th>
+                <td>body 1 coluna 1</td>
+                <td>body 2 coluna 2</td>
+                <td>body 3 coluna3</td>
             </tr>
             <tr>
-                <th>body 1 coluna 1</th>
-                <th>body 2 coluna 2</th>
-                <th>body 3 coluna3</th>
+                <td>body 1 coluna 1</td>
+                <td>body 2 coluna 2</td>
+                <td>body 3 coluna3</td>
             </tr>
             <tr>
-                <th>body 1 coluna 1</th>
-                <th>body 2 coluna 2</th>
-                <th>body 3 coluna3</th>
+                <td>body 1 coluna 1</td>
+                <td>body 2 coluna 2</td>
+                <td>body 3 coluna3</td>
             </tr>
         </tbody>
 
